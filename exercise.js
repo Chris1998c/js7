@@ -10,4 +10,7 @@ function printname(){
   }
 
 let stampaMessaggio = printname();
-console.log(stampaMessaggio());
+setTimeout (function() {
+    console.log(stampaMessaggio());
+}, 1000);
+
